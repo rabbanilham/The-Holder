@@ -1,0 +1,6 @@
+framework module Pods_The_Holder {
+  umbrella header "Pods-The Holder-umbrella.h"
+
+  export *
+  module * { export * }
+}
