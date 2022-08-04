@@ -8,14 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		2AC302E8FF4E60A78C9D3208 /* Pods_The_Holder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C298800BC0B161E6D2FEDA8 /* Pods_The_Holder.framework */; };
+		383809F4289AC5EA003F3D42 /* AlbumCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383809F3289AC5EA003F3D42 /* AlbumCollectionViewCell.swift */; };
+		383809F6289AC98F003F3D42 /* PHAlbumResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383809F5289AC98F003F3D42 /* PHAlbumResponse.swift */; };
+		383809F8289ACA30003F3D42 /* PHPhotoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383809F7289ACA30003F3D42 /* PHPhotoResponse.swift */; };
+		383809FA289ACBB6003F3D42 /* AlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383809F9289ACBB6003F3D42 /* AlbumTableViewCell.swift */; };
+		383809FC289AE160003F3D42 /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383809FB289AE160003F3D42 /* PhotoDetailViewController.swift */; };
 		389CB95728980B7A00079BC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389CB95628980B7A00079BC9 /* AppDelegate.swift */; };
 		389CB95928980B7A00079BC9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389CB95828980B7A00079BC9 /* SceneDelegate.swift */; };
-		389CB95B28980B7A00079BC9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389CB95A28980B7A00079BC9 /* HomeViewController.swift */; };
+		389CB95B28980B7A00079BC9 /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389CB95A28980B7A00079BC9 /* PostsViewController.swift */; };
 		389CB96028980B7D00079BC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 389CB95F28980B7D00079BC9 /* Assets.xcassets */; };
 		389CB96328980B7D00079BC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389CB96128980B7D00079BC9 /* LaunchScreen.storyboard */; };
 		389CB96E28980B7E00079BC9 /* The_HolderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389CB96D28980B7E00079BC9 /* The_HolderTests.swift */; };
 		389CB97828980B7E00079BC9 /* The_HolderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389CB97728980B7E00079BC9 /* The_HolderUITests.swift */; };
 		389CB97A28980B7E00079BC9 /* The_HolderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389CB97928980B7E00079BC9 /* The_HolderUITestsLaunchTests.swift */; };
+		389CB98728980E6700079BC9 /* PlaceholderAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389CB98628980E6700079BC9 /* PlaceholderAPI.swift */; };
+		389CB98928980F6900079BC9 /* PHPostResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389CB98828980F6900079BC9 /* PHPostResponse.swift */; };
+		389CB98B2898133200079BC9 /* PHUserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389CB98A2898133200079BC9 /* PHUserResponse.swift */; };
+		389CB98D2898145000079BC9 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389CB98C2898145000079BC9 /* PostTableViewCell.swift */; };
+		38DC59A5289905050006B4DA /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DC59A4289905050006B4DA /* UIView+Extension.swift */; };
+		38DC59A728995B4F0006B4DA /* PostDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DC59A628995B4F0006B4DA /* PostDetailViewController.swift */; };
+		38DC59A928995BEE0006B4DA /* PHCommentResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DC59A828995BEE0006B4DA /* PHCommentResponse.swift */; };
+		38DC59AB28998C5E0006B4DA /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DC59AA28998C5E0006B4DA /* UserDetailViewController.swift */; };
+		38DC59AD28998CE40006B4DA /* UserDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DC59AC28998CE40006B4DA /* UserDetailTableViewCell.swift */; };
 		E2698F0A3EE9DF655A5C91AA /* Pods_The_Holder_The_HolderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7FF5C58C33B561CF6EE064B /* Pods_The_Holder_The_HolderUITests.framework */; };
 		E2C72A72E25CCCC6C83372B6 /* Pods_The_HolderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C34335FA397B5E7E12C90395 /* Pods_The_HolderTests.framework */; };
 /* End PBXBuildFile section */
@@ -38,10 +52,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		383809F3289AC5EA003F3D42 /* AlbumCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCollectionViewCell.swift; sourceTree = "<group>"; };
+		383809F5289AC98F003F3D42 /* PHAlbumResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHAlbumResponse.swift; sourceTree = "<group>"; };
+		383809F7289ACA30003F3D42 /* PHPhotoResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHPhotoResponse.swift; sourceTree = "<group>"; };
+		383809F9289ACBB6003F3D42 /* AlbumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTableViewCell.swift; sourceTree = "<group>"; };
+		383809FB289AE160003F3D42 /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
 		389CB95328980B7A00079BC9 /* The Holder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Holder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		389CB95628980B7A00079BC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		389CB95828980B7A00079BC9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		389CB95A28980B7A00079BC9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		389CB95A28980B7A00079BC9 /* PostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewController.swift; sourceTree = "<group>"; };
 		389CB95F28980B7D00079BC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		389CB96228980B7D00079BC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		389CB96428980B7D00079BC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,6 +69,15 @@
 		389CB97328980B7E00079BC9 /* The HolderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The HolderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		389CB97728980B7E00079BC9 /* The_HolderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_HolderUITests.swift; sourceTree = "<group>"; };
 		389CB97928980B7E00079BC9 /* The_HolderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_HolderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		389CB98628980E6700079BC9 /* PlaceholderAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderAPI.swift; sourceTree = "<group>"; };
+		389CB98828980F6900079BC9 /* PHPostResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHPostResponse.swift; sourceTree = "<group>"; };
+		389CB98A2898133200079BC9 /* PHUserResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHUserResponse.swift; sourceTree = "<group>"; };
+		389CB98C2898145000079BC9 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		38DC59A4289905050006B4DA /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		38DC59A628995B4F0006B4DA /* PostDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailViewController.swift; sourceTree = "<group>"; };
+		38DC59A828995BEE0006B4DA /* PHCommentResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHCommentResponse.swift; sourceTree = "<group>"; };
+		38DC59AA28998C5E0006B4DA /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
+		38DC59AC28998CE40006B4DA /* UserDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailTableViewCell.swift; sourceTree = "<group>"; };
 		3CEBEEC73770D31D51B085C0 /* Pods-The Holder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Holder.debug.xcconfig"; path = "Target Support Files/Pods-The Holder/Pods-The Holder.debug.xcconfig"; sourceTree = "<group>"; };
 		4C298800BC0B161E6D2FEDA8 /* Pods_The_Holder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_Holder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F4711DD61679839C5B91E83 /* Pods-The Holder-The HolderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Holder-The HolderUITests.release.xcconfig"; path = "Target Support Files/Pods-The Holder-The HolderUITests/Pods-The Holder-The HolderUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -89,6 +117,83 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3822F20B289BC4A40064B162 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3822F211289BC5CA0064B162 /* API */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3822F20C289BC4B80064B162 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3822F210289BC5760064B162 /* TableViewCells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3822F20D289BC4C90064B162 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				389CB95A28980B7A00079BC9 /* PostsViewController.swift */,
+				38DC59A628995B4F0006B4DA /* PostDetailViewController.swift */,
+				38DC59AA28998C5E0006B4DA /* UserDetailViewController.swift */,
+				383809FB289AE160003F3D42 /* PhotoDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3822F20E289BC5570064B162 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3822F20F289BC5680064B162 /* Extensions */,
+				389CB95F28980B7D00079BC9 /* Assets.xcassets */,
+				389CB96128980B7D00079BC9 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3822F20F289BC5680064B162 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				38DC59A4289905050006B4DA /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3822F210289BC5760064B162 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				389CB98C2898145000079BC9 /* PostTableViewCell.swift */,
+				38DC59AC28998CE40006B4DA /* UserDetailTableViewCell.swift */,
+				383809F3289AC5EA003F3D42 /* AlbumCollectionViewCell.swift */,
+				383809F9289ACBB6003F3D42 /* AlbumTableViewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		3822F211289BC5CA0064B162 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				3822F212289BC5DA0064B162 /* Entities */,
+				389CB98628980E6700079BC9 /* PlaceholderAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		3822F212289BC5DA0064B162 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				389CB98828980F6900079BC9 /* PHPostResponse.swift */,
+				389CB98A2898133200079BC9 /* PHUserResponse.swift */,
+				38DC59A828995BEE0006B4DA /* PHCommentResponse.swift */,
+				383809F5289AC98F003F3D42 /* PHAlbumResponse.swift */,
+				383809F7289ACA30003F3D42 /* PHPhotoResponse.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
 		389CB94A28980B7A00079BC9 = {
 			isa = PBXGroup;
 			children = (
@@ -114,11 +219,12 @@
 		389CB95528980B7A00079BC9 /* The Holder */ = {
 			isa = PBXGroup;
 			children = (
+				3822F20E289BC5570064B162 /* Resources */,
+				3822F20D289BC4C90064B162 /* Controller */,
+				3822F20C289BC4B80064B162 /* View */,
+				3822F20B289BC4A40064B162 /* Model */,
 				389CB95628980B7A00079BC9 /* AppDelegate.swift */,
 				389CB95828980B7A00079BC9 /* SceneDelegate.swift */,
-				389CB95A28980B7A00079BC9 /* HomeViewController.swift */,
-				389CB95F28980B7D00079BC9 /* Assets.xcassets */,
-				389CB96128980B7D00079BC9 /* LaunchScreen.storyboard */,
 				389CB96428980B7D00079BC9 /* Info.plist */,
 			);
 			path = "The Holder";
@@ -161,7 +267,6 @@
 				753F8245E1838ED142408BCD /* Pods-The HolderTests.debug.xcconfig */,
 				E2DC1597A3F41F36F7057648 /* Pods-The HolderTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -403,9 +508,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				389CB95B28980B7A00079BC9 /* HomeViewController.swift in Sources */,
+				383809F6289AC98F003F3D42 /* PHAlbumResponse.swift in Sources */,
+				38DC59A928995BEE0006B4DA /* PHCommentResponse.swift in Sources */,
+				383809F4289AC5EA003F3D42 /* AlbumCollectionViewCell.swift in Sources */,
+				383809F8289ACA30003F3D42 /* PHPhotoResponse.swift in Sources */,
+				38DC59AD28998CE40006B4DA /* UserDetailTableViewCell.swift in Sources */,
+				389CB98728980E6700079BC9 /* PlaceholderAPI.swift in Sources */,
+				389CB98B2898133200079BC9 /* PHUserResponse.swift in Sources */,
+				383809FA289ACBB6003F3D42 /* AlbumTableViewCell.swift in Sources */,
+				38DC59A5289905050006B4DA /* UIView+Extension.swift in Sources */,
+				383809FC289AE160003F3D42 /* PhotoDetailViewController.swift in Sources */,
+				389CB98D2898145000079BC9 /* PostTableViewCell.swift in Sources */,
+				38DC59A728995B4F0006B4DA /* PostDetailViewController.swift in Sources */,
+				389CB98928980F6900079BC9 /* PHPostResponse.swift in Sources */,
+				389CB95B28980B7A00079BC9 /* PostsViewController.swift in Sources */,
 				389CB95728980B7A00079BC9 /* AppDelegate.swift in Sources */,
 				389CB95928980B7A00079BC9 /* SceneDelegate.swift in Sources */,
+				38DC59AB28998C5E0006B4DA /* UserDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
